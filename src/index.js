@@ -1,0 +1,1 @@
+console.log("Check that the basic set up works")
