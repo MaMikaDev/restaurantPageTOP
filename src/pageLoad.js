@@ -7,7 +7,7 @@ function pageLoad(){
 
     // create the elements for the content
     const title = document.createElement("h1");
-    title.textContent = "Welcome to All Blue";
+    title.textContent = "Welcome to the All Blue";
 
     const logo = document.createElement("img");
     logo.src = Logo;
