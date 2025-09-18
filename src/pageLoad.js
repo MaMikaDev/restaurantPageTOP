@@ -9,7 +9,7 @@ function pageLoad(){
 
     // create extra div just for testing
     const tagline = document.createElement("p");
-    tagline.textContent = "Where the only thing worse than food is the service";
+    tagline.textContent = '"Where the only thing worse than food is the service"';
     tagline.style.padding = "20px";
 
     // adding created title and tagline to the content div

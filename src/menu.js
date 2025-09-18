@@ -18,7 +18,7 @@ function loadMenu(){
     ]
 
     const menuList = document.createElement("ul");
-    menuList.style.padding = "2rem";
+    menuList.style.padding = "1rem";
 
     // appending items to menuItems (WITH BACKTICS)
     menuItems.forEach(item => {
