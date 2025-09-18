@@ -20,6 +20,7 @@ function loadMenu(){
     const menuList = document.createElement("ul");
     menuList.style.padding = "2rem";
 
+    // appending items to menuItems (WITH BACKTICS)
     menuItems.forEach(item => {
         const listItem = document.createElement("li");
         listItem.textContent = `${item.name} - ${item.description} (${item.price})`;
