@@ -1,7 +1,13 @@
 body {
-    background-color: rebeccapurple;
+    background-color: deepskyblue;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
 
     #content {
         display: grid;
