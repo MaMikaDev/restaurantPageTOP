@@ -9,11 +9,22 @@ body {
         gap: 1rem;
     }
 
+    nav button {
+
+        background-color: yellow;
+        border-radius: 0.5em;
+        font-size: 2em;
+        padding: 1rem;
+
+    }
+
     #content {
         display: grid;
         place-content: center;
         margin: auto;
         text-align: center;
+        width: 50%;
+        font-size: 2em;
     }
 
 }
