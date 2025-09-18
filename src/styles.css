@@ -38,7 +38,16 @@ body {
     border-radius: 10em;
     border: 0.2rem solid;
     border-color: floralwhite;
+    max-width: 80%;
     
+  }
+
+  #footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
   }
 
 }
