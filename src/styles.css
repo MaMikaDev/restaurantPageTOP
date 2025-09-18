@@ -32,4 +32,13 @@ body {
     text-align:center;
   }
 
+  #content img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10em;
+    border: 0.2rem solid;
+    border-color: floralwhite;
+    
+  }
+
 }
