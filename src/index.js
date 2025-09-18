@@ -1,4 +1,9 @@
+// adding all the necessary imports
 import pageLoad from "./pageLoad.js";
+import loadMenu from "./menu.js";
+import loadAbout from "./about.js";
+
+// import the stylesheet
 import "./styles.css";
 
 pageLoad();
@@ -14,6 +19,21 @@ homeButton.addEventListener("click", () => {
     pageLoad();
 });
 
+const menuButton = document.getElementById("menuButton");
 
-console.log("Check that the basic set up works")
+menuButton.addEventListener("click", () => {
+    const content = document.getElementById("content");
+    content.textContent = "";
+
+    loadMenu();
+});
+
+const aboutButton = document.getElementById("aboutButton");
+
+aboutButton.addEventListener("click", () => {
+    const content = document.getElementById("content");
+    content.textContent ="";
+
+    loadAbout();
+})
 
