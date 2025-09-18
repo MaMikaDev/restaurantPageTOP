@@ -1,7 +1,7 @@
 function pageLoad(){
 
     // get the content div from the template.html
-    document.getElementById("content");
+    const content = document.getElementById("content");
 
     // create the elements for the content
     const title = document.createElement("h1");

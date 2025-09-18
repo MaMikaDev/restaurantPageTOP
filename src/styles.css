@@ -2,4 +2,12 @@ body {
     background-color: rebeccapurple;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    #content {
+        display: grid;
+        place-content: center;
+        margin: auto;
+        text-align: center;
+    }
+
 }
