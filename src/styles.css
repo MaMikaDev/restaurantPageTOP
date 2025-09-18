@@ -43,6 +43,7 @@ body {
   }
 
   #footer {
+    background-color: rgb(65, 124, 183);
     text-align: center;
     position: fixed;
     bottom: 0;
