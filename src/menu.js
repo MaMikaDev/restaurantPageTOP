@@ -5,7 +5,7 @@ function loadMenu(){
     const content = document.getElementById("content");
 
     // create the elements for the content
-    const menu = document.createElement("h2");
+    const menu = document.createElement("h1");
     menu.textContent = "Our Current Menu";
 
     // create extra div just for testing
