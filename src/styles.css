@@ -11,6 +11,7 @@ body {
 
     nav button {
 
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         background-color: yellow;
         border-color: green;
         border-radius: 0.5em;
@@ -20,7 +21,7 @@ body {
     }
 
     #content {
-
+        
         display: grid;
         place-content: center;
         margin: auto;
